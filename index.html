@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CricPro Scoreboard</title>
+</head>
+<body>
+    <header>
+        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG" alt="CricPro Logo" class="logo">
+    </header>
+    
+    <section class="title">
+        <h1>ICC WORLD CUP 2011</h1>
+        <h4>India vs Sri Lanka Scorecard</h4>
+    </section>
+    <section>
+        <table class="scoreboardtable">
+            <tr class="summary">
+                <td id="innings">India Innings</td>
+                <td id="finalscore">277-4 (48.2)</td>
+            </tr>
+            <tr id = "stats">
+                <td><b>Batsman</td>
+                <td> </td>
+                <td><b>R</td>
+                <td><B>B</td>
+                <td><b>4s</td>
+                <td><b>6s</td>
+                <td><b>SR</td>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(1)" >Virendra Sehwag</td>
+                <td id="bowler">lbw b L Malinga</td>
+                <td><b>0</td></b>
+                <td><b>2</td></b>
+                <td><b>0</td></b>
+                <td><b>0</td></b>
+                <td><b>0.00</td></b>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(2)">Sachin Tendulkar</td>
+                <td id="bowler">c K Sangakkara b L Malinga</td>
+                <td><b>18</td><b>
+                <td><b>14</td></b>
+                <td><b>2</td></b>
+                <td><b>0</td><b>
+                <td><b>128.57</td></b>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(3)">Gautham Gambhir</td>
+                <td id="bowler">b T Perera</td>
+                <td><b>97</td></b>
+                <td><b>122</td></b>
+                <td><b>9</td></b>
+                <td><b>0</td></b>
+                <td><b>79.51</td></b>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(4)">Virat Kohli</td>
+                <td id="bowler">c & b T Dilshan</td>
+                <td><b>35</td></b>
+                <td><b>49</td></b>
+                <td><b>4</td></b>
+                <td><b>0</td></b>
+                <td><b>71.43</td></b>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(5)">MS Dhoni (c & wk)</td>
+                <td id="bowler">Not Out</td>
+                <td><b>91</td></b>
+                <td><b>79</td></b>
+                <td><b>8</td></b>
+                <td><b>2</td></b>
+                <td><b>115.19</td></b>
+            </tr>
+            <tr id = "stats">
+                <td id="batsman" onclick="change(6)">Yuvaraj Singh</td>
+                <td id="bowler">Not Out</td>
+                <td><b>21</td></b>
+                <td><b>24</td></b>
+                <td><b>2</td></b>
+                <td><b>0</td></b>
+                <td><b>87.50</td></b>
+            </tr>
+            <tr id = "stats">
+                <td><b>Extras</b></td>
+                <td> </td>
+                <td colspan="5">15 (b 1,lb 6,w 8,nb 0,p 0) </td>
+            </tr>
+            <tr id = "stats">
+                <td><b>Total</b></td>
+                <td> </td>
+                <td colspan="5">277 (4 wkts , 48.2)</td>
+            </tr>
+            <tr id = "stats">
+                <td><b>Did Not Bat</b></td>
+                <td colspan="6"><span id="batsman" onclick="change(7)">Suresh raina ,</span
+                    ><span id="batsman" onclick="change(8)">Harbhajan Singh ,</span
+                    ><span id="batsman" onclick="change(9)"> Zaheer Khan ,</span
+                    ><span id="batsman" onclick="change(10)">Munaf Patel ,</span
+                    ><span id="batsman" onclick="change(11)">S Sreesanth </span></td>
+            </tr>
+        </table>
+    </section>
+    
+<footer>Made with 💙 By Shaswath</footer>
+</body>
+</html>
+<script src="script.js"></script>
